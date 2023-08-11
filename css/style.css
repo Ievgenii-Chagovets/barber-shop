@@ -1,3 +1,222 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --secondary-title-color: #303030;
+    --main-text-color: #555555;
+    --secondary-text-color: #9DA4BD;
+    --third-text-color: #303030;
+    --accent-color: #FF6C00;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.header {
+    background-color: aqua;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.btn {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.btn:hover, .btn:focus {
+    background-color: var(--accent-color);
+} 
+.pre-text {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.after-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+/* -----HEADER------- */
+.header__link {
+    color: var(--main-title-color);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
+}
+.header__link:hover, .header__link:focus {
+    color: var(--accent-color);
+}
+.header__tel {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+ 
+.header__button {
+    color: #FFFFFF;
+}
+/* --------HERO--------- */
+
+.hero-item__link {
+    color: #303030;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+.hero__main {
+    background-color: green;
+}
+.hero__pre-text {
+    color: #9DA4BD;
+}
+.hero__title {
+    color: var(--main-title-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.hero__text {
+    color: var(--secondary-text-color);
+}
+
+/* -------about--------- */
+.about__title{
+    color: var(--secondary-title-color);
+}
+.about__after-text {
+    color: #555;
+}
+.about__text {
+    color: --main-text-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
+/* -----------prices---------- */
+.prices {
+    background-color: var(--third-text-color);
+}
+.prices__pre-text {
+    color: rgba(157, 164, 189, 0.60);
+}
+.prices__title{
+    color: var(--main-title-color);
+}
+.prices__item-text {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+/* -----------reason----------- */
+.reason__count {
+    color:var(--third-text-color);
+text-align: center;
+font-size: 42px;
+font-weight: 700;
+line-height: 1.36;
+letter-spacing: 0.05em;
+}
+.reason__item-text {
+    color: var(--third-text-color);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+}
+.reason__pre-text {
+    color: var(--third-text-color);
+}
+.reason__title {
+    color: var(--secondary-title-color);
+}
+.reason__after-text {
+    color: var(--main-text-color);
+}
+/* ----------masters------------ */
+.masters__pre-text {
+    color: var(--third-text-color);
+}
+.masters__title {
+    color: var(--secondary-title-color);
+}
+.masters__item {
+    color: var(--third-text-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.39;
+    letter-spacing: 0.02em;
+}
+.masters__item-text {
+    color: #FF6C00;
+ 
+}
+/* --------GGALLERY-------- */
+.gallery__pre-text {
+    color: var(--third-text-color);
+}
+/* ---------ONLINE-------- */
+.online__title {
+    color: var(--main-title-color);
+}
+/* ---------CONTACTS */
+.contacts__title {
+    color: var(--main-title-color);
+}
+.contacts__link,
+.contacts__text{
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+.contacts__subtitle {
+    color: var(--main-title-color);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+/* --------FOOTER--------- */
+.footer__text {
+    color: var(--secondary-text-color);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    }
+.footer__link {
+    color: var(--third-text-color);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+} 
