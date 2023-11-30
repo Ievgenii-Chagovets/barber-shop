@@ -1,0 +1,113 @@
+.hero {
+        .container {
+            display: flex;
+    }
+}
+
+.hero-left {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.hero__list {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+
+    &::before {
+            content: "";
+            margin-right: 40px;
+            display: block;
+    
+            width: 60px;
+            height: 1px;
+            background-color: #303030;
+            flex-shrink: 0;
+        }
+}
+
+.hero-item__link {
+    color: #303030;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    transition: color 500ms linear;
+    &:hover,
+    &:focus {
+        color: #FF6C00;
+    }
+}
+
+.hero__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.pre-text {
+    display: flex;
+    align-items: center;
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    &::before {
+            display: block;
+            content: "";
+    
+            width: 63px;
+            height: 1px;
+            background-color: #9DA4BD99;
+    
+            margin-right: 20px;
+        }
+}
+
+.after-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+.hero__main {
+    flex-grow: 1;
+    padding: 272px 0 200px 99px;
+
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)),
+        url(../pictures/hero/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // border-bottom: 5px solid inherit;
+}
+
+.hero__pre-text {
+    margin-bottom: 20px;
+
+    color: #9DA4BD;
+}
+
+.hero__title {
+    margin-bottom: 20px;
+
+    color: var(--main-title-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+
+.hero__text {
+    color: var(--secondary-text-color);
+}

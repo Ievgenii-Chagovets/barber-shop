@@ -1,0 +1,13 @@
+.gallery__pre-text {
+    margin-bottom: 44px;
+
+    color: var(--third-text-color);
+}
+
+.gallery__list {
+    display: flex;
+}
+
+.gallery__item+.gallery__item {
+    margin-left: 30px;
+}
